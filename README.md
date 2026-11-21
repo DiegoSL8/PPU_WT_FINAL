@@ -17,7 +17,7 @@ Aplicación móvil Android desarrollada en Kotlin para consultar el clima en tie
 * **Mapa Interactivo y Clima en Tiempo Real:** Geolocalización GPS (`FusedLocationProviderClient`), búsqueda de direcciones (`Geocoder`), pines manuales, consulta meteorológica a **Open-Meteo** (Retrofit + Gson) con alerta visual de aptitud para el baño, navegación directa desde favoritos al mapa y opción de compartir ubicación.
 * **Validaciones y Resiliencia ante Cortes de Red:** Verificación previa de conectividad (`NetworkUtils` con `ConnectivityManager`) y manejo de excepciones de Firebase para informar errores al usuario sin cierres inesperados.
 
-## 🏗Arquitectura por Capas
+## Arquitectura por Capas
 
 El proyecto separa la interfaz de usuario, la lógica de negocio y el acceso a datos remotos en paquetes dedicados:
 
